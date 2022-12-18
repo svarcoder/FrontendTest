@@ -1,0 +1,179 @@
+.App {
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 50px 20px 50px;
+}
+
+.header_child {
+	justify-content: space-between;
+}
+
+.header_child > a {
+	margin: 20px;
+}
+
+.blue {
+	font-weight: bold;
+	color: #4a6eec;
+	text-decoration: none;
+}
+.grey {
+	color: #7788a9;
+	text-decoration: none;
+}
+
+.headerButton {
+	height: 40px;
+	width: 100px;
+	background-color: #4a6eec;
+	color: white;
+	border-radius: 5px;
+}
+.main_body {
+	margin: 0;
+	padding: 10px;
+}
+
+.left {
+	width: 50%;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.right {
+	width: 50%;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.homeImage {
+	width: 400px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 20px;
+}
+
+.homeButton {
+	height: 40px;
+	width: 140px;
+	background-color: #4a6eec;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+}
+.homeButton2 {
+	height: 40px;
+	width: 140px;
+	background-color: #ebedfc;
+	color: #6481ee;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.homeButtonImage {
+	position: absolute;
+	height: 15px;
+	width: 10px;
+	padding: 5px;
+}
+
+.main_body2 {
+	margin: 0;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.home2left {
+	width: 30%;
+	margin-top: 10px;
+	display: inline-block;
+	text-align: left;
+}
+
+.home2middle {
+	width: 30%;
+	margin-top: 10px;
+	display: inline-block;
+	text-align: left;
+}
+.home2right {
+	width: 30%;
+	margin-top: 10px;
+	display: inline-block;
+	text-align: left;
+}
+
+@media screen and (max-width: 748px) {
+	.homeImage {
+		width: 100px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.header {
+		font-size: 0.5rem;
+	}
+	.headerButton {
+		height: 25px;
+		width: 80px;
+		font-size: 0.5rem;
+	}
+	.main_body {
+		font-size: 0.5rem;
+	}
+	.main_body2 {
+		font-size: 0.5rem;
+	}
+
+	.homeButton {
+		height: 25px;
+		width: 80px;
+		font-size: 0.5rem;
+	}
+	.homeButton2 {
+		height: 25px;
+		width: 80px;
+		font-size: 0.5rem;
+	}
+	.homeImage {
+		width: 100px;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.header {
+		font-size: 0.2rem;
+	}
+	.headerButton {
+		height: 15px;
+		width: 50px;
+		font-size: 0.2rem;
+	}
+	.main_body {
+		font-size: 0.2rem;
+	}
+	.main_body2 {
+		font-size: 0.2rem;
+	}
+
+	.homeButton {
+		height: 15px;
+		width: 50px;
+		font-size: 0.2rem;
+	}
+	.homeButton2 {
+		height: 15px;
+		width: 50px;
+		font-size: 0.2rem;
+	}
+	.homeImage {
+		width: 80px;
+		height: 100px;
+	}
+}
